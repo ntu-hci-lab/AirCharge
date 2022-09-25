@@ -1,0 +1,12 @@
+
+//噴氣
+設氣壓和噴氣時長: c<air pressure><duration>
+air pressure: 0400~3200 (refer to https://github.com/ntu-hci-lab/AirCharge/blob/main/TechnicalEvaluation/PwmToAirPressure.csv)
+duration: 0000~9999 (ms)
+(c04001000 代表 0.1MPa 噴 1 秒)
+
+噴氣: f<ID>
+(f0代表噴0號噴頭)
+
+交互噴氣: s<frequency>
+(s10代表一秒內交互噴10次)

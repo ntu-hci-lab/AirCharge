@@ -12,8 +12,10 @@ namespace IMADA_Force_Measure
 	{
 		static void Main()
         {
-			FinalForce function = new FinalForce();
-			function.Start();
+			//FinalForce measureTarget = new FinalForce();
+			FinalFrequency measureTarget = new FinalFrequency();
+			//FinalPreload measureTarget = new FinalPreload();
+			measureTarget.Start();
 		}
 	}
 }
