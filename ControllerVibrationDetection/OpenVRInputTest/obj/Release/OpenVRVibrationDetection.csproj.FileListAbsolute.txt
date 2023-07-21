@@ -1,0 +1,13 @@
+C:\Users\HCI\Downloads\OpenVRInputTest\bin\Release\openvr_api.dll
+C:\Users\HCI\Downloads\OpenVRInputTest\bin\Release\actions.json
+C:\Users\HCI\Downloads\OpenVRInputTest\bin\Release\app.vrmanifest
+C:\Users\HCI\Downloads\OpenVRInputTest\bin\Release\bindings_knuckles.json
+C:\Users\HCI\Downloads\OpenVRInputTest\bin\Release\bindings_vive_controller.json
+C:\Users\HCI\Downloads\OpenVRInputTest\bin\Release\boll7708.openvrinputtest.vrappconfig
+C:\Users\HCI\Downloads\OpenVRInputTest\bin\Release\VibrationDisable.exe.config
+C:\Users\HCI\Downloads\OpenVRInputTest\bin\Release\VibrationDisable.exe
+C:\Users\HCI\Downloads\OpenVRInputTest\bin\Release\VibrationDisable.pdb
+C:\Users\HCI\Downloads\OpenVRInputTest\obj\Release\OpenVRVibrationDetection.csprojAssemblyReference.cache
+C:\Users\HCI\Downloads\OpenVRInputTest\obj\Release\OpenVRVibrationDetection.csproj.CoreCompileInputs.cache
+C:\Users\HCI\Downloads\OpenVRInputTest\obj\Release\VibrationDisable.exe
+C:\Users\HCI\Downloads\OpenVRInputTest\obj\Release\VibrationDisable.pdb
