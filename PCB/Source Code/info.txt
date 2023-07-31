@@ -1,0 +1,358 @@
+{
+  "uuid": "d2d78d301a6ee64de3eda083a418bcf6",
+  "path": "Offline/OpenJet",
+  "name": "OpenJet",
+  "content": "",
+  "created_at": "2021-06-19 21:06:25",
+  "updated_at": "2021-08-07 01:06:30",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "45b656e938d49e52c976ec31eaae6d01",
+      "title": "PWM_Mod",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d6a69fdc86a1c5259860667996e11723": 8,
+        "527d665278b95e60b4d2819d27b9d422": 8,
+        "44d62a43804948fb87b9770b0b3304d4": 8,
+        "37b48359ee8141549268f861835f4be2": 16,
+        "2579ba04abdc0007371efb869c9ef34a": 4,
+        "a69440664bae42bb9838b4149915b49f": 16,
+        "67b94facafa64c84beecde66c1638431": 1,
+        "f80e29816fd30bb295222fb4f47bcc25": 8,
+        "3363f4306f3b4388a4b8a0b95dec6308": 8,
+        "8d984326bb2c468ea5733a395ca41ebd": 1,
+        "59a9195a3bfd4ffe850597db38b1ef6c": 2,
+        "362e6d7944c3c844cd1475e27ade6b30": 8,
+        "50c55a9aac8d447aa07ef664476f2dd5": 1,
+        "3323843c1d3da89ea23a24b06c069af3": 8,
+        "404aa9221ff94de597b8734806e7c74f": 2,
+        "388c05e900d94aab9df06aa22690c07c": 1,
+        "c2606d8812424bf3b241ab9fdefd3143": 4,
+        "ea9706eeb6bc4dbfbce96f1727560a74": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "DC-005C-25A",
+          1,
+          "DC-IN-TH_DC-005C-25A",
+          "DC",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C223903",
+            "BOM_Manufacturer": "Korean Hroparts Elec",
+            "BOM_Manufacturer Part": "DC-005C-25A",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "59a5a50d83b1468e8f82a42a5f10935c",
+            "uuid": "8d984326bb2c468ea5733a395ca41ebd"
+          }
+        ],
+        [
+          "100K",
+          16,
+          "R0805",
+          "R29,R2,R11,R12,R7,R13,R14,R1,R20,R21,R22,R8,R27,R28,R30,R19",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C144587",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "AC0805FR-07100KL",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "37b48359ee8141549268f861835f4be2"
+          }
+        ],
+        [
+          "10K",
+          8,
+          "R0805",
+          "R10,R26,R23,R15,R18,R6,R3,R31",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C465472",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "44d62a43804948fb87b9770b0b3304d4"
+          }
+        ],
+        [
+          "PTF-77",
+          1,
+          "FUSE-TH_L24.4-W9.4-P22.60",
+          "FUSEHOLDER",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C717030",
+            "BOM_Manufacturer": "XFCN",
+            "BOM_Manufacturer Part": "PTF-77",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "ef441acdb1ad4521a6c9e6e7da2c1599",
+            "uuid": "50c55a9aac8d447aa07ef664476f2dd5"
+          }
+        ],
+        [
+          "MH254V-11-08-1196",
+          2,
+          "HDR-TH_8P-P2.54-V-M",
+          "VALVE_CTRL,PWM_CTRL",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C962327",
+            "BOM_Manufacturer": "XFCN",
+            "BOM_Manufacturer Part": "MH254V-11-08-1196",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "7142253ac24c42e1954a7f7d1d66b136",
+            "uuid": "59a9195a3bfd4ffe850597db38b1ef6c"
+          }
+        ],
+        [
+          "HDMI-001",
+          1,
+          "HDMI-SMD_19P-P0.50-H-F",
+          "OUTPUT",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C138388",
+            "BOM_Manufacturer": "Boom Precision Elec",
+            "BOM_Manufacturer Part": "HDMI-001",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "3922f7e854aa44eea365b37b96006240",
+            "uuid": "67b94facafa64c84beecde66c1638431"
+          }
+        ],
+        [
+          "20K",
+          8,
+          "R0805",
+          "R25,R32,R24,R4,R17,R16,R9,R5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F2002T5E",
+            "BOM_Supplier Part": "C4328",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "362e6d7944c3c844cd1475e27ade6b30"
+          }
+        ],
+        [
+          "Ai-Thinker_NodeMCU-32SLUA",
+          1,
+          "AI-THINKER_NODEMCU-32SLUA",
+          "NODEMCU-32S",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C111436",
+            "BOM_Manufacturer": "Ai-Thinker",
+            "BOM_Manufacturer Part": "NodeMCU-32SLua",
+            "puuid": "6c5adcceab754c0280852419beb5d16f",
+            "uuid": "388c05e900d94aab9df06aa22690c07c"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x1",
+          2,
+          "HDR-M-2.54_1X1",
+          "5V_INPUT,GND_DEBUG",
+          {
+            "BOM_Supplier Part": "C81276",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "XH-3A",
+          8,
+          "CONN-TH_XH-3A",
+          "REGULATOR8,REGULATOR1,REGULATOR4,REGULATOR5,REGULATOR2,REGULATOR3,REGULATOR6,REGULATOR7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "XH-3A",
+            "BOM_Supplier Part": "C2316",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "daafcc9fc94a4553a0445517deaa11c5",
+            "uuid": "527d665278b95e60b4d2819d27b9d422"
+          }
+        ],
+        [
+          "LM358DR2G",
+          4,
+          "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL",
+          "U2,U4,U3,U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ON",
+            "BOM_Manufacturer Part": "LM358DR2G",
+            "BOM_Supplier Part": "C7950",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "71450838f2174409b429143f6acc9d2a",
+            "uuid": "2579ba04abdc0007371efb869c9ef34a"
+          }
+        ],
+        [
+          "4.7K",
+          8,
+          "R0805",
+          "R36,R35,R34,R33,R40,R38,R39,R37",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "RC0805DR-074K7L",
+            "BOM_Supplier Part": "C164146",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "3363f4306f3b4388a4b8a0b95dec6308"
+          }
+        ],
+        [
+          "SS210",
+          8,
+          "SMA_L4.3-W2.6-LS5.2-RD",
+          "D1,D2,D3,D4,D5,D6,D7,D8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "SS210",
+            "BOM_Manufacturer": "MDD",
+            "BOM_Supplier Part": "C14996",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "b7243d11a5f04fb7894887aaa3569585",
+            "uuid": "3323843c1d3da89ea23a24b06c069af3"
+          }
+        ],
+        [
+          "47pF",
+          16,
+          "C0805",
+          "C14,C6,C13,C9,C12,C10,C15,C16,C5,C1,C2,C3,C4,C7,C8,C11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C507424",
+            "BOM_Manufacturer": "FH(Guangdong Fenghua Advanced Tech)",
+            "BOM_Manufacturer Part": "0805CG470J201NT",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "a69440664bae42bb9838b4149915b49f"
+          }
+        ],
+        [
+          "2.54-1*19P母",
+          4,
+          "HDR-TH_19P-P2.54-V-F",
+          "LEFT,RIGHT,LEFT1,RIGHT1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C319202",
+            "BOM_Manufacturer": "BOOMELE(博穆精密)",
+            "BOM_Manufacturer Part": "2.54-1*19P母",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "238f7130b74e4d8cbbd8e4480294e0f1",
+            "uuid": "c2606d8812424bf3b241ab9fdefd3143"
+          }
+        ],
+        [
+          "XH-2A",
+          8,
+          "CONN-TH_XH-2A",
+          "VALVE4,VALVE5,VALVE3,VALVE6,VALVE7,VALVE1,VALVE2,VALVE8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "XH-2A",
+            "BOM_Supplier Part": "C20079",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "d6a69fdc86a1c5259860667996e11723"
+          }
+        ],
+        [
+          "SS-12D06L5",
+          1,
+          "SW-TH_3P-P4.70_L11.1-W12.7",
+          "VALVE_PWR_SWITCH",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C319015",
+            "BOM_Manufacturer": "XKB Enterprise",
+            "BOM_Manufacturer Part": "SS-12D06L5",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "359ee04fd630400f898f0d739d9392e7",
+            "uuid": "ea9706eeb6bc4dbfbce96f1727560a74"
+          }
+        ],
+        [
+          "AO3400A",
+          8,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "Q8,Q7,Q6,Q5,Q3,Q2,Q1,Q4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AOS",
+            "BOM_Manufacturer Part": "AO3400A",
+            "BOM_Supplier Part": "C20917",
+            "puuid": "b3b82869fa924bae820e3a6cfb44d689",
+            "uuid": "f80e29816fd30bb295222fb4f47bcc25"
+          }
+        ]
+      ],
+      "updateTime": 1628269590,
+      "createTime": 1624108356,
+      "histories": [],
+      "created_at": "2021-06-19 21:12:36",
+      "updated_at": "2021-08-07 01:06:30"
+    },
+    {
+      "uuid": "f7697cff03ec40ceeaa806e7c256fd25",
+      "puuid": "d2d78d301a6ee64de3eda083a418bcf6",
+      "title": "PCB_OpenJet",
+      "filename": "PCB_OpenJet.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "238f7130b74e4d8cbbd8e4480294e0f1": 4,
+        "359ee04fd630400f898f0d739d9392e7": 1,
+        "b3b82869fa924bae820e3a6cfb44d689": 8,
+        "19c77e72422b43b59c26b9fa67af5de4": 2,
+        "b7243d11a5f04fb7894887aaa3569585": 8,
+        "71450838f2174409b429143f6acc9d2a": 4,
+        "6c5adcceab754c0280852419beb5d16f": 1,
+        "7142253ac24c42e1954a7f7d1d66b136": 2,
+        "59a5a50d83b1468e8f82a42a5f10935c": 1,
+        "769626f169ec49d9867bc27eb696b6b9": 24,
+        "ef441acdb1ad4521a6c9e6e7da2c1599": 1,
+        "3922f7e854aa44eea365b37b96006240": 1,
+        "b60f399a7a7e41848b2be1eb49c79141": 16,
+        "daafcc9fc94a4553a0445517deaa11c5": 8,
+        "bbc61cb2bd3840b290cf4f8db68b3c00": 16,
+        "743f02f614624025bdfe490c3e40495d": 8
+      },
+      "BOM": [],
+      "updateTime": 1627997960,
+      "createTime": 1625081291,
+      "histories": [],
+      "created_at": "2021-07-01 03:28:11",
+      "updated_at": "2021-08-03 21:39:20"
+    }
+  ],
+  "sort": [
+    "45b656e938d49e52c976ec31eaae6d01",
+    "fde8f060ba3b21bbe45d2055cc500b3e"
+  ],
+  "title": "OpenJet",
+  "foldername": "OpenJet",
+  "schfilename": "OpenJet.json",
+  "schfilemtime": 1628269590351
+}
